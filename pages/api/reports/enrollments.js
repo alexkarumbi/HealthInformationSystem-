@@ -1,6 +1,6 @@
-import db from '../../../services/DatabaseService';
+import db from '../../services/DatabaseService';
 import ReportService from '../../../services/ReportService';
-import { apiResponse, errorResponse, requireAuth } from '../../../utils/apiUtils';
+import { apiResponse, errorResponse, requireAuth } from '../../utils/apiUtils';
 
 // Initialize report service with database service
 const reportService = new ReportService(db);
