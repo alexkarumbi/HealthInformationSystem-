@@ -1,6 +1,7 @@
 // Authentication middleware for API routes
 
-import authService from '../services/AuthService';
+
+import authService  from './services/authService'; // Adjust the import path as necessary
 import { NextRequest, NextResponse } from 'next/server';
 
 interface Session {
