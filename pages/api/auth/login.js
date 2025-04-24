@@ -1,6 +1,6 @@
 // API endpoint for user login
 import authService from '../../../services/AuthService';
-import { apiResponse, errorResponse } from '../../../utils/apiUtils';
+import { apiResponse, errorResponse } from '../../utils/apiUtils';
 
 export default function handler(req, res) {
   if (req.method !== 'POST') {
