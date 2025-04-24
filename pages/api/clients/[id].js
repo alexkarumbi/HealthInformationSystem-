@@ -1,5 +1,5 @@
-import db from '../../../services/DatabaseService';
-import { apiResponse, errorResponse, requireAuth } from '../../../utils/apiUtils';
+import db from '../../services/DatabaseService';
+import { apiResponse, errorResponse, requireAuth } from '../../utils/apiUtils';
 
 export default requireAuth(function handler(req, res) {
   const { id } = req.query;
