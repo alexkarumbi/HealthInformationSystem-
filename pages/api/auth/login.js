@@ -1,4 +1,4 @@
-// API endpoint for user login
+
 import authService from '../../../services/AuthService';
 import { apiResponse, errorResponse } from '../../../utils/apiUtils';
 
